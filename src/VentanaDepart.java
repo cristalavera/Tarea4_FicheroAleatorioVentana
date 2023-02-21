@@ -1,3 +1,6 @@
+
+//Código refactorizado por Cristina Talavera Fernández
+
 import java.awt.*;
 import java.awt.event.*;
 import java.io.BufferedReader;
@@ -70,7 +73,7 @@ public class VentanaDepart extends JFrame implements ActionListener {
 
 		JPanel p5 = new JPanel();
 		p4.setLayout(new FlowLayout());
-		c = Color.PINK;
+		c = Color.MAGENTA;
 		p5.add(breset);
 		p5.add(ver);
 		p5.add(fin);
@@ -133,7 +136,7 @@ public class VentanaDepart extends JFrame implements ActionListener {
 			}
 		}
 		if (e.getSource() == breset) { // SE PULSA EL BOTON limpiar
-			mensaje.setText(" has pulsado el boton limpiar..");
+			mensaje.setText(" has pulsado el boton limpiar.....");
 			num.setText(" ");
 			nombre.setText(" ");
 			loc.setText(" ");
