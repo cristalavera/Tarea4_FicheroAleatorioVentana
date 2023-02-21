@@ -43,7 +43,7 @@ public class VentanaDepart extends JFrame implements ActionListener {
 		setTitle("GESTIÓN DE DEPARTAMENTOS.");
 
 		JPanel p0 = new JPanel();
-		c = Color.CYAN;
+		c = Color.LIGHT_GRAY;
 		p0.add(titulo);
 		p0.setBackground(c);
 
